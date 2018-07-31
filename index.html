@@ -1,12 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pranshu Chittora</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+
+    <!-- G Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <h1>Hola Amigo</h1>
+
+    <!-- navbar -->
+    <nav>
+        <div class="nav-wrapper black">
+            <a href="#" class="brand-logo center" id="nav-logo">
+                pranshu chittora
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Resume</a>
+                </li>
+                <li>
+                    <a href="#">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <div id="banner-main">
+            <video id="video-bkg"  muted autoplay loop="true">
+                    <source src="./assets/video-bkg.mp4" type="video/mp4">
+                    </video> 
+        <div class="container " id="banner-main-content">
+            <div class="row">
+                <div class="col s12 l6 center" id="banner-left">
+                    <div class="row">
+                        <div class="col s12">
+                            <img src="./assets/profile.jpg" id="profile-pic" alt="Profile Pic">
+                        </div>
+                        <div class="col s12 center" style="padding-top: 20px;">
+
+                            <img class="social-logo" src="./assets/Logos/github.png">
+                            <img class="social-logo" src="./assets/Logos/twitter.png">
+                            <img class="social-logo" src="./assets/Logos/linkedin.png">
+                            <img class="social-logo" src="./assets/Logos/youtube.png">
+                            <img class="social-logo" src="./assets/Logos/insta.png">
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- right banner -->
+                <div class="col s12 l6">
+                    <div class=" row">
+                        <div class="col s12 center">
+                            <h1 id="banner-right-head">Hello .
+                                <br>I am
+                                <br>Full Stack</h1>
+                            <div class="divider"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner ends -->
+    <div id="three-card-cont">
+        <div class="row container">
+            <!-- card1 -->
+            <div class="col s12 l4 card center ">
+                <h3>UI/UX</h3>
+                <div class="divider"></div>
+                <img class="card-img" src="./assets/Card-Img/frontend.svg">
+                <div class="divider"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta perferendis ipsum veritatis natus quo nam
+                    quam temporibus cum id dicta nobis at dignissimos, praesentium animi, voluptates facere. Quas, ducimus
+                    error.
+                </p>
+
+
+
+            </div>
+            <!-- card 1 ends -->
+            <div class="col s12 l4 card center">
+                <h3>Backend & DB</h3>
+                <div class="divider"></div>
+                <img class="card-img" src="./assets/Card-Img/backend.svg">
+
+                <div class="divider"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta perferendis ipsum veritatis natus quo nam
+                    quam temporibus cum id dicta nobis at dignissimos, praesentium animi, voluptates facere. Quas, ducimus
+                    error.
+                </p>
+
+
+            </div>
+            <!-- card 2 ends -->
+            <div class="col s12 l4 card center">
+                <h3>Programmer</h3>
+                <div class="divider"></div>
+                <img class="card-img" src="./assets/Card-Img/dev.svg">
+                <div class="divider"></div>
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa laudantium nulla unde. Fugiat non deserunt
+                        magnam explicabo delectus quas itaque?</p>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- three card section ends -->
+    <!-- skills sections starts -->
+    <div id="skills-cont" class="row">
+
+
+
+
+        <div class="col s12 l8">
+            <h2 class="header">Horizontal Card</h2>
+            <div class="card horizontal">
+                <div class="card-image skills-img ">
+                    <img src="./assets/skills/js.svg">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h3 class="center">JS</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus pariatur assumenda perferendis
+                            atque enim animi possimus, eveniet molestias culpa numquam!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="col s12 l8 offset-l2">
+            <h2 class="header">Horizontal Card</h2>
+            <div class="card horizontal">
+                <div class="card-image skills-img">
+                    <img src="./assets/skills/nodejs.png">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h3 class="center">Node js</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus pariatur assumenda perferendis
+                            atque enim animi possimus, eveniet molestias culpa numquam!</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
 </body>
+
 </html>
