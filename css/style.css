@@ -3,20 +3,29 @@ body
 {
     overflow-x: hidden; 
 }
+nav{
+    
+    background: #00000044;
+ 
+ position: fixed;
+ z-index: 100;
+}
 #nav-logo
 {
     font-family: 'Pacifico', cursive;
     color: #d3d3d3;
     overflow-y: hidden;
+
     
 }
+#banner-main-cont{
+    margin-top: 5vh;
+}
 #banner-main{
+    
     width: 100vw;
-    min-height: 60vh;
+    min-height: 70vh;
    
-    
-    
-    padding-top: 3vh;
     position: relative;
     overflow: hidden;
 }
@@ -89,12 +98,38 @@ body
    
   
     margin-top: -20px;
-   background: #000000;
-    padding: 0% 10%;
-}
+    margin-bottom: -10px;
+    padding: 2vh 4vw;
+    background: rgb(15, 30, 73);
 
+  
+}
+.skills-div
+{
+ 
+   
+ 
+height: 155px;
+width: 155px;
+   
+
+   
+     
+    border-radius: 3%;
+    
+ margin: 5px;
+  
+}
 .skills-img{
-    width: 20%;
+  
     filter: drop-shadow(0 10px 10px  #1d1d1d);
-   margin: auto;
+  
+ margin: 15%;
+  width: 70%;
+    
+
+}
+.skills-div:hover
+{
+    filter: invert(1);
 }
