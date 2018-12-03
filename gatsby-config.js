@@ -3,16 +3,11 @@ module.exports = {
     title: 'Kurious Guy',
     author: 'Pranshu Chittora',
     description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
+    siteUrl: 'https://pranshuchittora.github.io/',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/',
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-115756395-5",
-      },
-    },
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,7 +22,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 1000,
             },
           },
           {
@@ -47,18 +42,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-115756395-5`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Kurious Guy`,
+        short_name: `Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#00a0c4`,
+        theme_color: `#ffa7c4`,
         display: `minimal-ui`,
         icon: `src/assets/gatsby-icon.png`,
       },
