@@ -7,7 +7,6 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
-    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -50,7 +49,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Kurious Guy`,
-        short_name: `Blog`,
+        short_name: `Kurious Guy`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#FF5722`,
