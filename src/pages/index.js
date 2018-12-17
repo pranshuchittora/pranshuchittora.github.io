@@ -19,6 +19,7 @@ class BlogIndex extends React.Component {
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
           title={siteTitle}
+          noscript="Pls Enable JS 👍"
         />
         <Bio />
         {posts.map(({ node }) => {
