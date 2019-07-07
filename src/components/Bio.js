@@ -29,14 +29,20 @@ class Bio extends React.Component {
         <p>
           Hi, I am <strong>Pranshu Chittora</strong> a CS junior student from 🇮🇳
           <br />
-          JS | TS | React | Electron | CLI | Golang
-          <br />
+          Member{' '}
           <a href="https://github.com/webpack">
             <strong>@webpack</strong>
+          </a>{' '}
+          <a href="https://github.com/gatsbyjs">
+            <strong>@gatsbyjs</strong>
           </a>
           <div>
+            Follow me =>{' '}
             <a href="https://twitter.com/pranshuchittora" target="_blank">
               Twitter
+            </a>{' '}
+            <a href="https://github.com/pranshuchittora" target="_blank">
+              GitHub
             </a>
           </div>
         </p>
