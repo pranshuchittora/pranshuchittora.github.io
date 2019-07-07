@@ -7,7 +7,7 @@ Hotstar is an Indian streaming service owned by Star India, which itself is a wh
 
 This year Hotstar became one and only online streaming service for IPL (Indian Premier League) and GOT (Game of Thrones S8), which are accessible online via the subscriptions pack on Hotstar only. On the contrary, it's a little bit early in India to adopt subscription-based services.
 
-It was March of 2019, one of the crucial time for Hotstar as IPL was about to start and GOT too. Unfortunately, somehow user credentials got leaked on a wide basis. Which includes user's email and password in plain text along with the details of their subscription plan and expiration date.
+It was March of 2019, one of the crucial time for Hotstar as IPL was about to start and GOT too. Unfortunately, somehow user credentials got leaked on a wide basis. Which includes user's email and password in plain text along with the details of their subscription plan and expiration date. And these details were floating all over the internet in the form of Throwbin links and all other possible ways.
 
 This security breach made accessing premium content for free. As soon as they(Hotstar) came to know about this situation they reacted back by adding one more step to their authentication process in order to prevent alien access by enabling 2FA (OPT). This took them about a month to get this feature into production.
 
@@ -102,3 +102,4 @@ IMO, when the login form is submitted, the server is not checking the `userType`
 ### Conclusion
 
 Never trust frontend, always perform validations at the backend.
+If someone from the Hotstar team is reading this, then pls don't fire the developers.😉
