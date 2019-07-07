@@ -27,12 +27,18 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Hi, I am <strong>Pranshu Chittora</strong> a sophmore computer science
-          student. <br />I 💖 JS and I'm not a 🤖
+          Hi, I am <strong>Pranshu Chittora</strong> a CS junior student from 🇮🇳
           <br />
-          <a href="https://twitter.com/kurious_guy" target="_blank">
-            Twitter
+          JS | TS | React | Electron | CLI | Golang
+          <br />
+          <a href="https://github.com/webpack">
+            <strong>@webpack</strong>
           </a>
+          <div>
+            <a href="https://twitter.com/pranshuchittora" target="_blank">
+              Twitter
+            </a>
+          </div>
         </p>
       </div>
     )
