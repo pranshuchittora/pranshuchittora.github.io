@@ -38,10 +38,20 @@ class Bio extends React.Component {
           </a>
           <div>
             Follow me =>{' '}
-            <a href="https://twitter.com/pranshuchittora" target="_blank">
+            <a
+              href="https://twitter.com/pranshuchittora"
+              rel="noopener"
+              rel="noreferrer"
+              target="_blank"
+            >
               Twitter
             </a>{' '}
-            <a href="https://github.com/pranshuchittora" target="_blank">
+            <a
+              href="https://github.com/pranshuchittora"
+              rel="noopener"
+              rel="noreferrer"
+              target="_blank"
+            >
               GitHub
             </a>
           </div>
