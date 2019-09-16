@@ -18,7 +18,7 @@ class Bio extends React.Component {
       >
         <img
           src={profilePic}
-          alt={`Pranshu Chittora`}
+          alt={`Rahul Suresh`}
           style={{
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -27,34 +27,8 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Hi, I am <strong>Pranshu Chittora</strong> a CS junior student from 🇮🇳
+          Hi, I am <strong>Rahul Suresh</strong> a CS final year student from 🇮🇳
           <br />
-          Member{' '}
-          <a href="https://github.com/webpack">
-            <strong>@webpack</strong>
-          </a>{' '}
-          <a href="https://github.com/gatsbyjs">
-            <strong>@gatsbyjs</strong>
-          </a>
-          <div>
-            Follow me =>{' '}
-            <a
-              href="https://twitter.com/pranshuchittora"
-              rel="noopener"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Twitter
-            </a>{' '}
-            <a
-              href="https://github.com/pranshuchittora"
-              rel="noopener"
-              rel="noreferrer"
-              target="_blank"
-            >
-              GitHub
-            </a>
-          </div>
         </p>
       </div>
     )

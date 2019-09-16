@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'undefined is not a function',
-    author: 'Pranshu Chittora',
+    title: 'Rahul Suresh',
+    author: 'Rahul Suresh',
     description: 'A starter blog demonstrating what Gatsby can do.',
     siteUrl: 'https://pranshuchittora.github.io/',
   },
@@ -50,8 +50,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Pranshu Chittora`,
-        short_name: `undefined`,
+        name: `Rahul Suresh Blog`,
+        short_name: `Rahul Suresh Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#FF5722`,
