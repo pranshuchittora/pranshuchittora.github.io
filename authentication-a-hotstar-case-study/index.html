@@ -1,0 +1,278 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/app.a3c5fcb0ddc3e7d9e425.css">body{--accent:#ff5722;--accentDark:#69f0ae;--accentLight:#1565c0;background-color:var(--bg)}body.light{--bg:#fff;--header:var(--accent);--textNormal:#222;--textLink:var(--accentLight);--hr:rgba(0,0,0,0.2);--inlineCode-bg:rgba(255,229,100,0.2);--inlineCode-text:#1a1a1a}body.dark,body.light{--textTitle:var(--accent)}body.dark{-webkit-font-smoothing:antialiased;--bg:#000;--header:#fff;--textNormal:hsla(0,0%,100%,0.88);--textLink:var(--accentDark);--hr:hsla(0,0%,100%,0.2);--inlineCode-bg:#373c49;--inlineCode-text:#e6e6e6}body:lang(ar) article,body:lang(fa) article{direction:rtl}body:lang(ar) .language-text,body:lang(ar) article .translations,body:lang(ar) article pre,body:lang(fa) .language-text,body:lang(fa) article .translations,body:lang(fa) article pre{direction:ltr}body:lang(ar) .language-text,body:lang(fa) .language-text{display:inline-block}body:lang(ar) blockquote,body:lang(fa) blockquote{border-left:unset;border-right:.32813rem solid rgba(0,0,0,.9);padding-right:1.42188rem;padding-left:unset;margin-left:.75rem;margin-right:-1.75rem}body:lang(fa) article,body:lang(fa) header>h1{font-family:Vazir}body:lang(ar) article,body:lang(ar) header>h1{font-family:Cairo,sans-serif}body:lang(ko) article,body:lang(ko) header{word-break:keep-all}code[class*=language-],pre[class*=language-]{color:#fff;background:none;font-family:Consolas,Menlo,Monaco,source-code-pro,Courier New,monospace;-webkit-font-feature-settings:normal;font-feature-settings:normal;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;margin-bottom:0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{overflow:auto;padding:1.3125rem}pre[class*=language-]::-moz-selection{background:#27292a}pre[class*=language-]::selection{background:#27292a}pre[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection{text-shadow:none;background:hsla(0,0%,100%,.15)}pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:hsla(0,0%,100%,.15)}:not(pre)>code[class*=language-]{border-radius:.3em;background:var(--inlineCode-bg);color:var(--inlineCode-text);padding:.15em .2em .05em;white-space:normal}.token.attr-name{color:#addb67;font-style:italic}.token.comment{color:#809393}.token.string,.token.url{color:#addb67}.token.variable{color:#d6deeb}.token.number{color:#f78c6c}.token.builtin,.token.char,.token.constant,.token.function{color:#82aaff}.token.punctuation{color:#c792ea}.token.doctype,.token.selector{color:#c792ea;font-style:"italic"}.token.class-name{color:#ffcb8b}.token.keyword,.token.operator,.token.tag{color:#ffa7c4}.token.boolean{color:#ff5874}.token.property{color:#80cbc4}.token.namespace{color:#b2ccd6}pre[data-line]{padding:1em 0 1em 3em;position:relative}.gatsby-highlight-code-line{background-color:#022a4b;display:block;padding-right:1em;padding-left:1.25em;border-left:.25em solid #ffa7c4}.gatsby-highlight,.gatsby-highlight-code-line{margin-right:-1.3125rem;margin-left:-1.3125rem}.gatsby-highlight{margin-bottom:1.75rem;border-radius:10px;background:#011627;-webkit-overflow-scrolling:touch;overflow:auto}@media (max-width:672px){.gatsby-highlight{border-radius:0}}.gatsby-highlight pre[class*=language-]{float:left;min-width:100%}</style><style data-href="/1.ac21610d1c7c1d8699ef.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-50d279861fb3cbfed809eae6ed8b9ac9.woff2) format("woff2"),url(/static/montserrat-latin-100-5e334eff013f12fbb8ed72c2a253f119.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-8c0705336558194799a8729840d7ed9d.woff2) format("woff2"),url(/static/montserrat-latin-100italic-03e19243272affe738654a157625ec26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-4343d3d91a9446226e7a8bbb024111ad.woff2) format("woff2"),url(/static/montserrat-latin-200-f2022ecd65a0703ec3edcb7641709a75.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-116c4c4b14ef76b0555da09854512022.woff2) format("woff2"),url(/static/montserrat-latin-200italic-89614a6008fc5c60739012463d0ee7e6.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-d2ad295b60682a6537c358e06ea80c61.woff2) format("woff2"),url(/static/montserrat-latin-300-3a371ee0d175f5c2b15ce1d6b981dc4e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-f6b6bf2431003f8142e800f9df157989.woff2) format("woff2"),url(/static/montserrat-latin-300italic-16521668f5f238098329cdd7d27c391e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-240a84447b78da0920fcb07e378f2c5f.woff2) format("woff2"),url(/static/montserrat-latin-400-b20cc131034316b1c85d0498fb9ed5c5.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-86172bb829de6be08b92512096b6aca6.woff2) format("woff2"),url(/static/montserrat-latin-400italic-9405e78785a55cf0e4ea7669d4616ea9.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-fb8d6b71dbe8d9294be43082936f649e.woff2) format("woff2"),url(/static/montserrat-latin-500-50825d47af7ae47e055018eb689c6c99.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-c0a555a4f8e997385a3eebbd4da0b9ee.woff2) format("woff2"),url(/static/montserrat-latin-500italic-635de59c4be86285b1f70068c95b9816.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-d5615136a08cfee70deb4be1ee1651df.woff2) format("woff2"),url(/static/montserrat-latin-600-f300da4fb4fe00e23915f62b2c643681.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-10f29d139edacde92df63374c5672568.woff2) format("woff2"),url(/static/montserrat-latin-600italic-2bc37d86a4ba12ce526c4af904a9946e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-7d77e1f03eefc452dab14d7f89080083.woff2) format("woff2"),url(/static/montserrat-latin-700-81826529772e52f0f14a4c73c2f2c7f1.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-1dd2b53f1567a29e0505de9b27c4352c.woff2) format("woff2"),url(/static/montserrat-latin-700italic-c162d257f5e9f9b108a96a604cfb2132.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-d4e7bf86bbd8e5f43ca73fa831218648.woff2) format("woff2"),url(/static/montserrat-latin-800-895aadbff357be35ac8dd107c7975ee7.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-fc0cbe442f7b3733c91e982e825c4daa.woff2) format("woff2"),url(/static/montserrat-latin-800italic-b3362875067300abedb7a8fb97903258.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-c8bdd772c0d1347720ff7e3fb72719f3.woff2) format("woff2"),url(/static/montserrat-latin-900-1b99ef78e627dd9bbd0ca4b5c0789547.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-cb72c1f90f66c124fb897a75bec64c78.woff2) format("woff2"),url(/static/montserrat-latin-900italic-b78bb9f8ecec6c5a924c873f1818095f.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-f015f1e9a46a3b9db4fd64564dacece4.woff2) format("woff2"),url(/static/merriweather-latin-300-92dfe81b725c342d31d962da975c07a6.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-7fd86b32accf2df4403d1d4fa3a81502.woff2) format("woff2"),url(/static/merriweather-latin-300italic-878b76f59d5ba58dd1652dc8d2a0f4f9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-12dbf4c00ae43698f278b099e4b0ec9e.woff2) format("woff2"),url(/static/merriweather-latin-400-1fffad22b085a877995812dbf1d9ac08.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-1e0d3e8121d88969bfb153c8f174b758.woff2) format("woff2"),url(/static/merriweather-latin-400italic-de18d4c4e8e808a7248a185f866ff094.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-dc8fec81a125fc63856587e6683da73b.woff2) format("woff2"),url(/static/merriweather-latin-700-d7d2ed8e58f303392cc3fc00ba3a9186.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-b7b7e5da4d7be8c12bd5a6c809edc8fc.woff2) format("woff2"),url(/static/merriweather-latin-700italic-6210a5fc1c54ca85a5d82aa85d7a9b5c.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-43f870d543dd89fbeb66d417c0d97276.woff2) format("woff2"),url(/static/merriweather-latin-900-8f3806df74937c7b8b53f24ae1e725d1.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-168c1ab28ed0e4e7d654334def288bc1.woff2) format("woff2"),url(/static/merriweather-latin-900italic-ae7778f01871e35ee142ef207b313b34.woff) format("woff")}@font-face{font-display:swap;font-family:Merriweather;font-style:normal;font-weight:400;src:url(/static/merriweather-400-l-8796b7875d52e9cb9b280211e8d3f82d.woff2) format("woff2");unicode-range:U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd}@font-face{font-display:swap;font-family:Montserrat;font-style:normal;font-weight:900;src:url(/static/montserrat-900-l-5751237264c0468be0d48ad1cea75b90.woff2) format("woff2");unicode-range:U+00??,U+0131,U+0152-0153,U+02bb-02bc,U+02c6,U+02da,U+02dc,U+2000-206f,U+2074,U+20ac,U+2122,U+2191,U+2193,U+2212,U+2215,U+feff,U+fffd}.react-toggle{touch-action:pan-x;display:inline-block;position:relative;cursor:pointer;background-color:transparent;border:0;padding:0;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent}.react-toggle-screenreader-only{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.react-toggle-track{width:50px;height:24px;padding:0;border-radius:30px;background-color:#0f1114;transition:all .2s ease}.react-toggle-track-check{position:absolute;width:17px;height:17px;left:5px;top:0;bottom:0;margin-top:auto;margin-bottom:auto;line-height:0;opacity:0;transition:opacity .25s ease}.react-toggle--checked .react-toggle-track-check,.react-toggle-track-x{opacity:1;transition:opacity .25s ease}.react-toggle-track-x{position:absolute;width:17px;height:17px;right:5px;top:0;bottom:0;margin-top:auto;margin-bottom:auto;line-height:0}.react-toggle--checked .react-toggle-track-x{opacity:0}.react-toggle-thumb{position:absolute;top:1px;left:1px;width:22px;height:22px;border-radius:50%;background-color:#fafafa;box-sizing:border-box;transition:all .5s cubic-bezier(.23,1,.32,1) 0ms;-webkit-transform:translateX(0);transform:translateX(0)}.react-toggle--checked .react-toggle-thumb{-webkit-transform:translateX(26px);transform:translateX(26px);border-color:#19ab27}.react-toggle--focus .react-toggle-thumb{box-shadow:0 0 2px 3px var(--accent)}.react-toggle:active .react-toggle-thumb{box-shadow:0 0 5px 5px var(--accentLight)}</style><meta name="generator" content="Gatsby 2.0.60"/><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="shortcut icon" href="/icons/icon-48x48.png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#FF5722"/><title data-react-helmet="true">Authentication 🛡️ (A Hotstar Case Study) | undefined is not a function</title><meta data-react-helmet="true" name="theme-color" content="#282c35"/><meta data-react-helmet="true" name="description" content="Hotstar is an Indian streaming service owned by Star India, which itself is a wholly owned subsidiary of The Walt Disney Company. Over the…"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:inherit;font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);border-left-color:inherit;opacity:0.8;}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:var(--hr);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:var(--textLink);text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}a.anchor{box-shadow:none;}a.anchor svg[aria-hidden="true"]{stroke:var(--textLink);}p code{font-size:1rem;}h1 code, h2 code, h3 code, h4 code, h5 code, h6 code{font-size:inherit;}li code{font-size:1rem;}blockquote.translation{font-size:1em;}</style><link as="script" rel="preload" href="/component---src-templates-blog-post-js-5a68853cfea8b7ac9fc3.js"/><link as="script" rel="preload" href="/1-141027941e649f16f261.js"/><link as="script" rel="preload" href="/0-e35498135fad332223c0.js"/><link as="script" rel="preload" href="/app-676c97f009d15eade766.js"/><link as="script" rel="preload" href="/webpack-runtime-2427b8e8b9d6e50844bd.js"/><link rel="preload" href="/static/d/934/path---authentication-a-hotstar-case-study-20-d-818-gBvI4O696IGjhxc9lAvdavBA38.json" as="fetch" crossOrigin="use-credentials"/></head><body><script>
+void function() {
+  window.__onThemeChange = function() {}
+
+  var preferredTheme
+  try {
+    preferredTheme = localStorage.getItem('theme')
+  } catch (err) { }
+
+  function setTheme(newTheme) {
+    window.__theme = newTheme
+    preferredTheme = newTheme
+    document.body.className = newTheme
+    window.__onThemeChange(newTheme)
+  }
+
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme)
+    try {
+      localStorage.setItem('theme', newTheme)
+    } catch (err) {}
+  }
+
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)')
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  })
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'))
+}()
+    </script><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div style="color:var(--textNormal);background:var(--bg);transition:color 0.2s ease-out, background 0.2s ease-out;min-height:100vh"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2.625rem"><h3 style="font-family:Montserrat, sans-serif;margin-top:0;margin-bottom:0;height:42px;line-height:2.625rem"><a style="box-shadow:none;text-decoration:none;color:var(--accent)" href="/">undefined is not a function</a></h3><div style="height:24px"></div></header><h1>Authentication 🛡️ (A Hotstar Case Study)</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem">July 07, 2019</p><div><p>Hotstar is an Indian streaming service owned by Star India, which itself is a wholly owned subsidiary of The Walt Disney Company. Over the past few years, it gained a lot of eyeballs due to recent internet revolution in India, which made the internet easily accessible and affordable.</p>
+<p>This year Hotstar became one and only online streaming service for IPL (Indian Premier League) and GOT (Game of Thrones S8), which are accessible online via the subscriptions pack on Hotstar only. On the contrary, it’s a little bit early in India to adopt subscription-based services.</p>
+<p>It was March of 2019, one of the crucial time for Hotstar as IPL was about to start and GOT too. Unfortunately, somehow user credentials got leaked on a wide basis. Which includes user’s email and password in plain text along with the details of their subscription plan and expiration date. And these details were floating all over the internet in the form of Throwbin links and all other possible ways.</p>
+<p>This security breach made accessing premium content for free. As soon as they(Hotstar) came to know about this situation they reacted back by adding one more step to their authentication process in order to prevent alien access by enabling 2FA (OPT). This took them about a month to get this feature into production.</p>
+<h4>Is it a marketing strategy</h4>
+<p>In early 90s Microsoft knowingly allowed piracy of Microsoft Windows in developing countries like China, and this emerged as one of the successful strategy ever adopted by Microsoft.</p>
+<div>
+          <div
+            class="gatsby-resp-iframe-wrapper"
+            style="padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden;margin-bottom: 1.0725rem"
+          >
+            <iframe src="https://www.youtube.com/embed/fGIrnT5yPWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          "></iframe>
+          </div>
+          </div>
+<p>Similarly, Hotstar is letting other people use their service in an odd way to convert users. This is just my speculation.</p>
+<p>Let’s get back to the Login system of Hotstar</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/a6a177c40c648641e411a2a0503b19dd/994e4/otp.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 596px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 96.64429530201342%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsSAAALEgHS3X78AAADxklEQVQ4y42U60+TZxjG3z/AzUUGYxMLQjm1HEpbsBxWhRZsxQLKUWZHOWzRqbgJM1mWsS9m+6Qytw9bMreYnU0GQ5YMEMm2+MklfHIkQEAtpaVQwlHatcBvb19aY5Yp3smV58mT+71yXc99Pa+gUejJVhahSyshO1lEopmcxFJp3Q45SYcoyCinSFuFMbuaIk0VgixCSWK0FtlOFe+1fsTQwG1+7R5koPdP+nv/eCL6bvzOrd9uc+PnPqrMNmrKmqiraEbIzTKgSTlAzHOZ/Hith63a4FlryukiJb+YZLUBhaYYIU9tJC+zhKgdsVz94qrU5P/HTyAQELH+v1gX4fcHpN7xsXsoE4tRxhtRyI0IsdFyYqOVxEcl0HP9e6lpc3NzW2UbG1suHHYn+9OPoIkzkZtkQchX56BSZJCwJ4Xu6z9t2ZhyMOt2Mzc3x5TDgXvWjcvlwi2eBeH1+R4Ru5wzmF89Rl15CxUlryOoU1UY9uWSlJRKV3ePaCfAyMgITqeT8fFxhoeHWX34EO/aGmsifCLZ+vr6Ixf2+w5K9fUiYTOmvFqEBFkKxnw9loOldHX9IjX5QgqC9xgkeprl6SknlYdsojorhwvrERRyFRVmC/VVddzsH9giCl14uIJqggiSPL6XLE/PUFHYgFFbQ625BUGlyKbcXE51eSW9Pb1S0+zyNMu+BVZ9K9KHQYvh9b+E9x88IK/IgE5vJKegECEjWYvFaCY3R8+XX30nNblX7Mx73az4F7ed9oR9AsVhJUqTilSTQiSUZ5Cu0PJ8hJyvr/0gNS3ML7GytMrS4jILCwssLi5KCO7D8Hjm8Qf83Juwo5GbyNpbglpchfR4BTEvy8lK0zLY1y8G1s/dv+8yOjbK6OgoY2NjTE5OSghOPXwWTIJnfo7JcTvKaCOpkUUoogwIJkMZlZajWGuPMTR4S1IYjsfT4PV6Q8Ge5qipgYpiK0eCOez4sINLnZ1c+PgCd/6688wvJVwej4eLly/SeeUynZ9cEgk/6KD9dCvHK5u52TcUyt/WVB+PyZNi455xca71JLW1ddhsNoS2tjZK1GbiInR8+0339pJC6jc21kNPzyE+iv3I9sSgSk0Rh6JSkRkr/nHSLdhqznDK+j4nXjtPvbWRlhMn6Xj3PI22Js6+c472xkY+f+sUn775BlfePstnp8/Qbj2O8UABdWVmGkxmhJ0Ru0jbrReTXo0pvwZtwkESdunY8UIkEa/I0GWp2S3by0txchSRL9KUnoZNFGEryKclT0dhYjxGkwl1RhZG1T7+BVjNZHCLgyZMAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="OTP while logging in to Hotstar"
+        title=""
+        src="/static/a6a177c40c648641e411a2a0503b19dd/994e4/otp.png"
+        srcset="/static/a6a177c40c648641e411a2a0503b19dd/8a346/otp.png 250w,
+/static/a6a177c40c648641e411a2a0503b19dd/cf6bd/otp.png 500w,
+/static/a6a177c40c648641e411a2a0503b19dd/994e4/otp.png 596w"
+        sizes="(max-width: 596px) 100vw, 596px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Unfortunately, I found a way to bypass this 2FA and login to an account by just using <code class="language-text">email</code> and <code class="language-text">password</code>.</p>
+<blockquote>
+<p><strong>Disclaimer</strong> =>
+I am not encouraging anyone to login to others account. This is just for demonstration and learning purposes.</p>
+</blockquote>
+<h4>Understanding the user types</h4>
+<p>Hotstar has two types of registered users, i.e. <code class="language-text">phone</code> and <code class="language-text">merged</code>. In simple terms, a user of type <code class="language-text">phone</code> is one who has linked his account to his mobile number and <code class="language-text">merged</code> is one who has only email linked.</p>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"description"</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token property">"exists"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token property">"usertype"</span><span class="token operator">:</span> <span class="token string">"phone"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"message"</span><span class="token operator">:</span> <span class="token string">"Success"</span><span class="token punctuation">,</span>
+  <span class="token property">"appCode"</span><span class="token operator">:</span> <span class="token string">"UMSP_701"</span>
+<span class="token punctuation">}</span></code></pre></div>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"description"</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token property">"exists"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token property">"usertype"</span><span class="token operator">:</span> <span class="token string">"merged"</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"message"</span><span class="token operator">:</span> <span class="token string">"Success"</span><span class="token punctuation">,</span>
+  <span class="token property">"appCode"</span><span class="token operator">:</span> <span class="token string">"UMSP_701"</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h4>The Login Flow</h4>
+<p>A user can log in via various methods, but today we will focus on logging in with email.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/0fb7a352c4bfa7044553777e61726fd5/39751/login-form.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 373px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 127.07774798927613%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAXcAAAF3AAHmAuEvAAAC1klEQVQ4y6VVSW/TUBD2f+DApSwSQnDiwg2BhFTEgQKqoBI9caEIwZkLPwdEyyKWpk0r2pRuiO6AEBdO0GzYjuMkdpbaz37+mHlp06hZCOqTvsz2Zt6M35uJhkOuKIoUFUKgVqtBY0UvaHbuFJSX1k55kO8WsNnG0KSUYPAKw7DBMw2CoO0hXQNy7d++bGF8PIbFpWXiN7GxsYmpqThmEwlMT09DN8yWbDst9Q1930OhUITn+ZSVINkn3lOUPzRn3us31Q5zu+0OUQFd11XZCcqI+SplVa1WVXblclnpaiRXCI7jUOai4yGq5HLFxY5XUyg5RThlByW3pPQlt6h0Lukc10GhVEBtp4pQBghC0QDLhyq5Y4YyCrGZncfSdgyfkpNY3t7H0vYE5n+9bWDh93vSTygb760jjkXSfzc+1zP0wx2MxC7i6rOjuDF2AgOjx3CdcO15HwZfnMI9so3ELuE+4e6782Q73tjDlH36nx7B45nB/YCP4ldwc+wkhl6fxdCrMwq3Xp7G8JtzeBjvx4PJy2rPSOwCbpOtGewzMNqHJ3N36gFlJPHDXMNG5qPCWjKB9VRC8avJWaykPmA1PYOVJNHUDNnm6vZ0ff9WdgHrmQR+Wl9bL8Ur+9DTOZQsF2bGQjZpwNYLKORcWFkbeeJtowjbLMGr0HRxPerRNs+GLyZk8FPYfQ5WPgfD1JFOJ6n1dOjEmzmDdAbydp72BGq/AvlyjI7TZk+Wkg+pDwxuv73hsdeKHcfXwYnxj/7vOtq09hOkl4EbtQ2udWv2/0GjZElCpRZSf0qIgEaZkNT8UlElN/GCqdiVm/gq+TNUwCCMaChIRDJCRvdgFQSKTqCokfNhFwXyu7xhMQTpAuTyAiYhZ9cnDwdUJXNAzk5SwFTWg06OFm1iygewA8vpPx5ShKzhw6SgbGMdB+WKGwH5p9qpZNF7yezf0int3mLLpSHq+v/yF9RMWAEmw8ibAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Login Form"
+        title=""
+        src="/static/0fb7a352c4bfa7044553777e61726fd5/39751/login-form.png"
+        srcset="/static/0fb7a352c4bfa7044553777e61726fd5/ac93d/login-form.png 250w,
+/static/0fb7a352c4bfa7044553777e61726fd5/39751/login-form.png 373w"
+        sizes="(max-width: 373px) 100vw, 373px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Both the type of users i.e. <code class="language-text">phone</code> and <code class="language-text">merged</code> can log in to their account by using the linked <code class="language-text">email</code>.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/d28efa1b1df0f0ca40e0adc0cc242c7b/eb2e1/email-form.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 385px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 119.48051948051948%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAAsSAAALEgHS3X78AAAC20lEQVQ4y7WVy08TURTG+4+4cOUClZi4ENGQCAsjVht5CmkAUxPFSAiwcOPCuHJjjAYJCgsRTSBKqFoSTTRCoWX6oC19IIryKKXzaGkp005bOnzeGcG2Cg0o3OSXc+6553455955KECGsBZDIhWXXKyvr8vsdGzmiqIIMSVCIU28kXksC4H/EowLcQiCAEXm5t0IbSUqDUVmVVI87efmz242/W0rzCWUmZtTcKftSRew3RHJLc/MzMBgMICiKJjNZjgcDphMJrjdbrhcLng8Hjlmt9vlOMdxuQVTqRSSySQSiYSMNJesFEuuJSHEBcRiMfA8L99kruOQBUOhEBa9i5ibnYN3wQvfok+2HMPJcX41uuPjkAW5MIspL2lv1gnPvBtfvFPEuvDVN018DxaC8+BiDBielmGj2TC8H+F46FeF//rs5azQ6qfQbr2PbvtjPLW3Z9Fpe0h4JNsnxHaRWBfJ26Tb0YGOiQf48GMofYbShryuAzjVm4+CnsMyJwgne46g5o0K6rdlqNdVQvW6BIXPj5K1vN950jy/+yBaPzamBfumelHaX4TL2guoHCzNokFXJaMZqkHdu3JUDZ7PWq/WKqF8dQb3jHfSgtFkDBzPIRAN/AXDM6BXafgjfrA8C26LHJbsjcQj+3gpPjoOo20F5skVjNvC+EwFYZxYhsEahN4cwKiFYOagN7EYMTEYpmiCn8RokiP5S/B8W063/ELLoVjthFLjRG2zG/06GnWtk6hotEJzy476NivqWsyouTkOdbMR9S0G1DbpUVz9HqfLdDh2dgBtd41pwWcDDAorHChRO3Dp+iQ6X3pR3mjDuQYTqm5YUHaNwkWNAcoremJHoLo6DGXDJxSodDheqsWhoj403R5NCy6xCdJuBDb3KizOFYxZQ2Qehskekls3TgQ3CJAWOYxZWBnKxpIcFgYLjenv+/mmiMRJpQjiht015AclZnxt9nLsueBP8QTRdd/+r/QAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Email Login Form"
+        title=""
+        src="/static/d28efa1b1df0f0ca40e0adc0cc242c7b/eb2e1/email-form.png"
+        srcset="/static/d28efa1b1df0f0ca40e0adc0cc242c7b/bd167/email-form.png 250w,
+/static/d28efa1b1df0f0ca40e0adc0cc242c7b/eb2e1/email-form.png 385w"
+        sizes="(max-width: 385px) 100vw, 385px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>If the email entered belongs to a userType <code class="language-text">phone</code>, then that user is asked to enter the OTP (as shown below). Followed by a password prompt.</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/65c0615518fb708aa9984a68092ba24c/28498/opt-form.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 384px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 118.75%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYCAYAAAD6S912AAAACXBIWXMAAXcAAAF3AAHmAuEvAAABpklEQVQ4y81UiXKCMBTk/z/OacUDtQaw1mo9uCpgQtjmxUFBkWJtZ5qZnYSXvHXfpQG1vOQDqUjoiDzPNdqu4i3nXMOgj2XkIEz9hwnTNIVRdr6HqI6UllYoc3kyFgrboExW2IyfqroVkVZIsVMOpMz0nmXZyUZnciz28rku55rwffEG0+xh5rpgzIaj9tf5HGbPhGWNMJ1O0el09G72+hgOh5jNZhBC1Odwu91gZFmayLZtMJthPJ6g+/yEzdY7KScCzoVWeKmyQrhThI5jY+f5CMMAvudhoFT0zC78ILorj62K0rbSFUJ+4JWHUkqNW793S4gBZVeuCD8DiExcVfFMnFfOzW3DE6RZDCG5dqDkHw6HI0qtQ/a6limHrwlXqyUG/aEqjKvagSrN4KqKv0xfEEbRlZqmfD40KXV51QqTJIHvU8uECIKgArIXuLwrY7/fl0Ne6e6fTCaqocdnqG9qdMdxdAoYY9dvFCw1FHM1WSfC9XqtH5IDjVcZRHbEcYou7wnku1gszoQ0VhR2E+I4brynjvi7otzzp/rdGBr45fX/Cb8ApnxUsDlbjPwAAAAASUVORK5CYII='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Email Login Form"
+        title=""
+        src="/static/65c0615518fb708aa9984a68092ba24c/28498/opt-form.png"
+        srcset="/static/65c0615518fb708aa9984a68092ba24c/4ada6/opt-form.png 250w,
+/static/65c0615518fb708aa9984a68092ba24c/28498/opt-form.png 384w"
+        sizes="(max-width: 384px) 100vw, 384px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>If a userType of <code class="language-text">merged</code> who can login to his account, by using the password only. If that email is filled in the login form. Then you are asked to type the password (as shown below).</p>
+<p>
+  <a
+    class="gatsby-resp-image-link"
+    href="/static/52f0179794e871c7ae16c99ddd8404f1/03815/no-phone-login.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+  
+  <span
+    class="gatsby-resp-image-wrapper"
+    style="position: relative; display: block;  max-width: 387px; margin-left: auto; margin-right: auto;"
+  >
+    <span
+      class="gatsby-resp-image-background-image"
+      style="padding-bottom: 124.03100775193798%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAZCAYAAAAxFw7TAAAACXBIWXMAAXcAAAF3AAHmAuEvAAABtElEQVQ4y7VTaW+CQBDl//+pGr9WGxOb1NgoiwdegJQbOV53RkGw4NHaIS+B3dnHzrw3CmQc0gixBEWe54x7o8jNsoyh0MfGm2Hr6X8ijKIIYRhCqR5+hKiJlEKp3orWz+957bbXbl4nbCBoI7xGVuQq95R5i7QaXLJQJ3jpdDAYDNDrvWI4fMdbv49utwtViFLFe8pnwiRJWKFIIgwDVozg+z4TXSvxsjVM6HseFosFVqsVdJ2gYz6bQWgavy+XS+gSe9u+2U8mDPwj4WazYcL1eo3FfA4hNP4JrRNc1z2V3y6e8qj3iom4RK3k8i/84KaFmkrNjyY+9VCWvNvtuEf7vQXLIuwRx3GrAAV5mqawTBOO4xY3lJtSyDw9Ik0yHA4HVp6S20qsosgrSw4TD2awhhVu4cZf+G2UKjuRBWF9QLM/YYfGaTO7OZJPUfmuGwZBIEXZwjANhimbXMAwjBqqe9Ucx3HOPaTF0WiE8Xj8A6oqoMmJIZMLoTbm0FkajJLQlnaZTCbygJAEag1EVsXlPp2ZTqc8XSUhSU42aQJZqIq2PLLO/4nyqD2u2gZPjqcTfgPl1qWAufghPQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    >
+      <img
+        class="gatsby-resp-image-image"
+        style="width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;"
+        alt="Email Login Form"
+        title=""
+        src="/static/52f0179794e871c7ae16c99ddd8404f1/03815/no-phone-login.png"
+        srcset="/static/52f0179794e871c7ae16c99ddd8404f1/0725b/no-phone-login.png 250w,
+/static/52f0179794e871c7ae16c99ddd8404f1/03815/no-phone-login.png 387w"
+        sizes="(max-width: 387px) 100vw, 387px"
+      />
+    </span>
+  </span>
+  
+  </a>
+    </p>
+<p>Now here comes the interesting part. If you erase the email field and enter an email which is linked to an account of type <code class="language-text">phone</code>, and enter the correct password and hit continue.
+<strong>Voila you are now successfully logged in and bypassed the OTP verification🎉</strong></p>
+<p>Heres the response from the server.</p>
+<blockquote>
+<p>userType = <code class="language-text">merged</code></p>
+</blockquote>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"description"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"userIdentity"</span><span class="token operator">:</span> <span class="token string">"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJoSWRcIjpcImFjbnxyYW1lc2hhZGRzQGdtYWlsLmNvbVwiLFwicElkXCI6XCJyYW1lc2hhZGRzQGdtYWlsLmNvbVwiLFwibmFtZVwiOlwiUmFtZXNoIEFkZHUgQWRkdSBBZGR1XCIsXCJlbWFpbFwiOlwicmFtZXNoYWRkc0BnbWFpbC5jb21cIixcImV4dEF1dGhJZFwiOlwiMTAxNTcyMTYyNDg1ODI1NzVcIixcImlwXCI6XCIxMDYuMjA4LjEzMi41XCIsXCJjb3VudHJ5Q29kZVwiOlwiaW5cIixcImN1c3RvbWVyVHlwZVwiOlwibnVcIixcInR5cGVcIjpcIm1lcmdlZFwiLFwiaXNFbWFpbFZlcmlmaWVkXCI6ZmFsc2UsXCJpc1Bob25lVmVyaWZpZWRcIjpmYWxzZSxcImRldmljZUlkXCI6XCIwOWMxZmU1NS05ZDNmLTRlNTQtOGQ1OS02NTBlZGNlMjMzZTlcIixcInZlcnNpb25cIjpcInYyXCIsXCJzdWJzY3JpcHRpb25zXCI6e1wiaW5cIjp7XCJTcG9ydHNQYWNrXCI6e1wic2hvd0Fkc1wiOlwiMVwiLFwiZXhwaXJ5XCI6XCIyMDE5LTExLTAzVDE0OjQ5OjQzLjAwMFpcIixcInN0YXR1c1wiOlwiQ1wifX19LFwiaXNzdWVkQXRcIjoxNTYyNDkxMjgyNTQ4fSIsImlzcyI6IlVNIiwiZXhwIjoxNTYyNTc3NjgyfQ.Qh3bxDH5mAlAGTQMnm0wbTdxUhUmEV_e3zMZwu0YSL8"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"message"</span><span class="token operator">:</span> <span class="token string">"Login Success"</span><span class="token punctuation">,</span>
+  <span class="token property">"appCode"</span><span class="token operator">:</span> <span class="token string">"UMSP_700"</span>
+<span class="token punctuation">}</span></code></pre></div>
+<blockquote>
+<p>userType = <code class="language-text">phone</code></p>
+</blockquote>
+<div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"description"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"userIdentity"</span><span class="token operator">:</span> <span class="token string">"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJoSWRcIjpcImFjbnxwcml5YWhvdHN0dWZmQGdtYWlsLmNvbVwiLFwicElkXCI6XCJwcml5YWhvdHN0dWZmQGdtYWlsLmNvbVwiLFwibmFtZVwiOlwiUHJpeWFua2EgU29uaSBTb25pXCIsXCJlbWFpbFwiOlwicHJpeWFob3RzdHVmZkBnbWFpbC5jb21cIixcInBob25lXCI6XCI3Mjg0OTIyODgzXCIsXCJleHRBdXRoSWRcIjpcIjEwMTU0OTc5ODI1MTI0MzY5XCIsXCJpcFwiOlwiMTA2LjIwOC4xMzIuNVwiLFwiY291bnRyeUNvZGVcIjpcImluXCIsXCJjdXN0b21lclR5cGVcIjpcIm51XCIsXCJ0eXBlXCI6XCJtZXJnZWRcIixcImlzRW1haWxWZXJpZmllZFwiOmZhbHNlLFwiaXNQaG9uZVZlcmlmaWVkXCI6dHJ1ZSxcImRldmljZUlkXCI6XCIwOWMxZmU1NS05ZDNmLTRlNTQtOGQ1OS02NTBlZGNlMjMzZTlcIixcInZlcnNpb25cIjpcInYyXCIsXCJzdWJzY3JpcHRpb25zXCI6e1wiaW5cIjp7XCJIb3RzdGFyUHJlbWl1bVwiOntcInNob3dBZHNcIjpcIjBcIixcImV4cGlyeVwiOlwiMjAxOS0xMC0wMVQxNDozNzo0OS4wMDBaXCIsXCJzdGF0dXNcIjpcIkNcIn19fSxcImlzc3VlZEF0XCI6MTU2MjQ5MTQxMDA2NX0iLCJpc3MiOiJVTSIsImV4cCI6MTU2MjU3NzgxMH0.qxnOPa8OI6LvivBI4inLcoA-Aq7SUX0uccuNCPuI6HM"</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"message"</span><span class="token operator">:</span> <span class="token string">"Login Success"</span><span class="token punctuation">,</span>
+  <span class="token property">"appCode"</span><span class="token operator">:</span> <span class="token string">"UMSP_700"</span>
+<span class="token punctuation">}</span></code></pre></div>
+<h3>How its happening</h3>
+<p>IMO, when the login form is submitted, the server is not checking the <code class="language-text">userType</code>. It only matches password and email irrespective of the user type.</p>
+<h3>Conclusion</h3>
+<p>Never trust frontend, always perform validations at the backend.
+If someone from the Hotstar team is reading this, then pls don’t fire the developers.😉</p></div><hr style="margin-bottom:1.75rem"/><div style="display:flex;margin-bottom:4.375rem"><img src="/static/profile-pic-63620fa61d4c1642a13f512781647a09.jpg" alt="Pranshu Chittora" style="margin-right:0.875rem;margin-bottom:0;width:3.5rem;height:3.5rem"/><p>Hi, I am <strong>Pranshu Chittora</strong> a CS junior student from 🇮🇳<br/>Member<!-- --> <a href="https://github.com/webpack"><strong>@webpack</strong></a> <a href="https://github.com/gatsbyjs"><strong>@gatsbyjs</strong></a><div>Follow me =&gt;<!-- --> <a href="https://twitter.com/pranshuchittora" rel="noreferrer" target="_blank">Twitter</a> <a href="https://github.com/pranshuchittora" rel="noreferrer" target="_blank">GitHub</a></div></p></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li></li><li><a rel="next" href="/react-hot-reloading-cra/">React h🔥t reloading ft. CRA<!-- --> →</a></li></ul></div></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-115756395-5', 'auto', {});
+      
+      
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"authentication-a-hotstar-case-study-20d","path":"/authentication-a-hotstar-case-study/"};window.dataPath="934/path---authentication-a-hotstar-case-study-20-d-818-gBvI4O696IGjhxc9lAvdavBA38";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app.a3c5fcb0ddc3e7d9e425.css","/app-676c97f009d15eade766.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-12721a8353a8dafbfffd.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-5a68853cfea8b7ac9fc3.js"],"component---src-pages-404-js":["/component---src-pages-404-js.c960d23cbd97335eadd6.css","/component---src-pages-404-js-a936be9c9a5ef027db90.js"],"component---src-pages-index-js":["/component---src-pages-index-js-c664c60fcfac53c2135f.js"]};/*]]>*/</script><script src="/webpack-runtime-2427b8e8b9d6e50844bd.js" async=""></script><script src="/app-676c97f009d15eade766.js" async=""></script><script src="/0-e35498135fad332223c0.js" async=""></script><script src="/1-141027941e649f16f261.js" async=""></script><script src="/component---src-templates-blog-post-js-5a68853cfea8b7ac9fc3.js" async=""></script></body></html>
