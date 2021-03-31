@@ -7,7 +7,7 @@
     "url": "https://github.com/pranshuchittora/pranshuchittora.github.io/issues"
   },
   "dependencies": {
-    "gatsby": "^2.0.19",
+    "gatsby": "^3.2.0",
     "gatsby-plugin-dark-mode": "^1.1.0",
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.0.8",
